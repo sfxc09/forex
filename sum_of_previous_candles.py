@@ -3,7 +3,7 @@ import oandapyV20.endpoints.instruments as instruments
 import time
 
 account_id = '101-004-13127690-001'
-client = oandapyV20.API(access_token='871452ee8558e618bf6a16131b964ead-d1ea65c6acff1a7f9e53d7f5948ace17')
+client = oandapyV20.API(access_token='')
 
 # the candlesticks start from the minute, so if you want to take a previous candlestick, it must be in the 2 min interval before the 2 min interval right now. eg time is 16:21 - previous candle was 16:18:00-16:19:59 interval, current candle is 16:20:00-16:21:69
 
