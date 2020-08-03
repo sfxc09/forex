@@ -15,7 +15,7 @@ import time
 import matplotlib.pyplot as plt
 
 account_id = '101-004-13127690-001'
-client = oandapyV20.API(access_token='871452ee8558e618bf6a16131b964ead-d1ea65c6acff1a7f9e53d7f5948ace17')
+client = oandapyV20.API(access_token='')
 instrument = 'GBP_USD'
 
 day_close, day_open, day_high_low, day_time = [],[],[],[]
